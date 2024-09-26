@@ -25,6 +25,18 @@ public class Opdracht7 {
 		int n8=64;
 		int n9=72;
 		int n0=80;
+		
+		System.out.println(n1+"x"+x1+"="+n1);
+		System.out.println(n1+"x"+x2+"="+n2);
+		System.out.println(n1+"x"+x3+"="+n3);
+		System.out.println(n1+"x"+x4+"="+n4);
+		System.out.println(n1+"x"+x5+"="+n5);
+		System.out.println(n1+"x"+x6+"="+n6);
+		System.out.println(n1+"x"+x7+"="+n7);
+		System.out.println(n1+"x"+x8+"="+n8);
+		System.out.println(n1+"x"+x9+"="+n9);
+		System.out.println(n1+"x"+x0+"="+n0);
+
 	}
 
 }

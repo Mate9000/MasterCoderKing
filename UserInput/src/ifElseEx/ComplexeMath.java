@@ -10,4 +10,7 @@ public class ComplexeMath {
 	}
 	}
 }
+	while (<boolean expression>) {
+		<statement(s)> ;
+	}
 

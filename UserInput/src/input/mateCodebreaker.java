@@ -28,7 +28,7 @@ public class mateCodebreaker {
         while (loop) {
             // Ask the user for their guess
             System.out.print("raad hier aub: ");
-            String[] guessStr = scanner.nextLine().split(" ");
+            String[] guessStr = scanner.nextLine().split();
             int[] guess = new int[4];
             for (int i = 0; i < 4; i++) {
                 guess[i] = Integer.parseInt(guessStr[i]);

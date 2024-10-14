@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class MateCodeBreakerReal {
 	public static void main(String[] args) {
 
+		//ik gebruik dit om later op een andere code te maken die de 4 integers naar 4 digit code in een string kan gezet worden en niet bij elkaar opgeteld
 		String userInput;
 
 		int geuss = 10;
@@ -26,11 +27,20 @@ public class MateCodeBreakerReal {
 		System.out.println(secretCode);
 
 		for (i = 1; i <= geuss; i++) {
-			System.out.println(i);
-
+			System.out.println("attempt:"+i);
 			userInput = sc.nextLine();
 			if (userInput.equals(secretCode)) {
-				System.out.println("Yippieeeee! You win!");
+				System.out.println("Yippieeeee! You win!"); }
+				
+				for (i = 1; i <= geuss; i++) {
+					System.out.println("attempt:"+i);
+					userInput = sc.nextLine();}
+					
+					if (userInput.equals(secretCode)) {
+						System.out.println("Yippieeeee! You win!");}
+					
+					if(i < geuss) {
+						System.out.println("Womp, Womp!");
 			}
 
 		}

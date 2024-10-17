@@ -66,7 +66,7 @@ public class Debughelper {
                 } else {
                     System.out.print("-");
                 }
-
+                if
                 System.out.println(); // New line after feedback
             }
 

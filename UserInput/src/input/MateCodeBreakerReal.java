@@ -4,13 +4,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MateCodeBreakerReal {
-    public static void main(String[] args) {
+    	//de belangrijkste lijn in deze opdracht want zonder did werkt de hele code niet meer
+	public static void main(String[] args) {
         //deze string is gemaakt dat de speller well iets in kan typen later op
     	String userInput;
         //aangeven dat de max attempts 10 is
         int maxAttempts = 10;
-        
+        //maakt zeker dat de schrijfer kan typen later op in de code
         Scanner sc = new Scanner(System.in);
+        //did randomises de code verder op in d code
         Random random = new Random();
 
         // deze 4 generates een random digit code tussen de 0 en de 5 en ik moeste dit 4 keer doen anders krijg ik gen 4 digit code maar 1 digit code
@@ -25,19 +27,20 @@ public class MateCodeBreakerReal {
         //dit is de attempt counter en het voegt 1 erbij bij elke gok
         for (int i = 1; i <= maxAttempts; i++) {
             System.out.println("Attempt " + i + ": Enter your 4-digit guess from 0 to 5:");
-            userInput = sc.nextLine(); 
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c = sc.nextInt();
+            int d = sc.nextInt();
+            String geusses = "" + a + b + c + d;
             //als je de 4 digit code goed hebt geraden dan krijg je deze tekst hier onder en het breakt zodat de code zou stoppen als de code goed is
-            if (userInput.equals(secretCode)) {
+            if (geusses.equals(secretCode)) {
                 System.out.println("Yippieeeee! You win!");
                 break; 
-            } else {
-                //hier onder zet ik met deze lijn code de aparte digits in een character zodat ik later op in de coe na kan kijken
-                int a = Character.getNumericValue(userInput.charAt(0));
-                int b = Character.getNumericValue(userInput.charAt(1));
-                int c = Character.getNumericValue(userInput.charAt(2));
-                int d = Character.getNumericValue(userInput.charAt(3));
+            } 
+            	else {
 
                 //checks de eerste digit als het goed niet goed of een dichtbi is of het helemaal fout is
+                
                 if (a == x) {
                     System.out.print("G");
                 } else if (a == y || a == z || a == w) {
@@ -79,6 +82,6 @@ public class MateCodeBreakerReal {
             }
         }
 
-        sc.close(); //scanner is door dit gesloten
+        sc.close(); //scanner is hier gesloten
     }
 }

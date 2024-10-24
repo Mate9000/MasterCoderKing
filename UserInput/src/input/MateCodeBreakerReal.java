@@ -26,8 +26,10 @@ public class MateCodeBreakerReal {
         System.out.println("only 4 digit code allowed otherwise game crashes"); 
         //dit is de attempt counter en het voegt 1 erbij bij elke gok
         for (int i = 1; i <= maxAttempts; i++) {
-            System.out.println("Attempt " + i + ": Enter your 4-digit guess from 0 to 5:");
-            int a = sc.nextInt();
+        	//dit print uit jouw aantal attempts die nog hept en de digit code tussen de 0 en 5 mag gegokt worden
+        	System.out.println("Attempt " + i + ": Enter your 4-digit guess from 0 to 5:");
+            //hier hier heb ik a b c en d die eigenlijk de x y z en w zijn maar de verschil hier is dat deze de gokken zijn en de x y z en w een random nummer is
+        	int a = sc.nextInt();
             int b = sc.nextInt();
             int c = sc.nextInt();
             int d = sc.nextInt();
@@ -73,8 +75,8 @@ public class MateCodeBreakerReal {
                     System.out.print("-");
                 }   
                 
-                
-                System.out.println(); // did maakt zeker dat de nakijk ding niet samen zit met de attempt counter
+             // did maakt zeker dat de nakijk ding niet samen zit met de attempt counter dus het is boven aan de attempt counter en niet samen in een zin
+                System.out.println(); 
             }
 
             if (i == maxAttempts) {

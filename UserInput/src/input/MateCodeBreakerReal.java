@@ -81,6 +81,7 @@ public class MateCodeBreakerReal {
 
             if (i == maxAttempts) {
                 System.out.println("Womp, Womp! You've used all attempts."); //als je max attempts op is dus max attempt 10 gebruit dan stopt alles en je krijgt womp womp 
+                System.out.println("the secret code was -> " + secretCode);
             }
         }
 

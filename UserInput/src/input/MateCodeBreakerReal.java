@@ -6,8 +6,6 @@ import java.util.Scanner;
 public class MateCodeBreakerReal {
     	//de belangrijkste lijn in deze opdracht want zonder did werkt de hele code niet meer
 	public static void main(String[] args) {
-        //deze string is gemaakt dat de speller well iets in kan typen later op
-    	String userInput;
         //aangeven dat de max attempts 10 is
         int maxAttempts = 10;
         //maakt zeker dat de schrijfer kan typen later op in de code

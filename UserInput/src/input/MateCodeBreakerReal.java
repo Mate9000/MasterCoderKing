@@ -22,7 +22,6 @@ public class MateCodeBreakerReal {
         int w = random.nextInt(6);
         //hier onder zet ik de 4 aparte digits in een 4 digit rij zodat ze een 4 digit code kunnen worden en ik print de secret code uit om te zien of het werkt of niet
         String secretCode = "" + x + y + z + w;
-        System.out.println("Secret Code: " + secretCode); 
         System.out.println("only 4 digit code allowed otherwise game crashes"); 
         //dit is de attempt counter en het voegt 1 erbij bij elke gok
         for (int i = 1; i <= maxAttempts; i++) {

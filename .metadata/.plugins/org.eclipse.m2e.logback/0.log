@@ -74,3 +74,11 @@
 2025-02-26 10:26:17,982 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-02-26 10:26:40,757 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\Maté Samniashvili', return code '1', error message '<3>WSL (9 - Relay) ERROR: CreateProcessCommon:640: execvpe(/bin/bash) failed: No such file or directory
 '
+2025-02-27 12:24:14,017 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-02-27 12:24:17,050 [Worker-9: Refreshing workspace] WARN  org.eclipse.jgit.util.FS - Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, Het systeem kan het opgegeven bestand niet vinden
+2025-02-28 09:26:05,064 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-28 09:26:29,848 [Worker-1: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, Het systeem kan het opgegeven bestand niet vinden
+2025-03-17 10:53:17,400 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-17 10:54:20,506 [Worker-3: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2025-03-19 10:45:53,005 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-19 10:47:02,000 [Worker-2: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null

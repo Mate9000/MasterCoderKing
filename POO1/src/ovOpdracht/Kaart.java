@@ -2,9 +2,12 @@ package ovOpdracht;
 
 public class Kaart {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public boolean checking;
+	public int saldo;
 
-	}
+	public Kaart (int saldo, boolean checking) {
+		this.saldo = saldo;
+		this.checking = checking;
+}
 
 }

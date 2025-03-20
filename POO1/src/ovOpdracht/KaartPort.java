@@ -8,6 +8,5 @@ public class KaartPort extends Kaart {
 		// TODO Auto-generated method stub
 		Kaart p01 = new Kaart(5, false);
 		
-		print.p01();
 	}
 }

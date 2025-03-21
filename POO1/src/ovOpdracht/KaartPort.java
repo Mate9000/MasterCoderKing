@@ -17,7 +17,7 @@ public class KaartPort {
 
         while (checkingIn) {
 
-            System.out.println("Do you want to check in? (ja/nee)");
+            System.out.println("wil je in checken? (ja/nee)");
             String userInput = scanner.nextLine();
 
 
@@ -25,9 +25,9 @@ public class KaartPort {
             saldoCheck(p01);
             checkingIn = false; 
         } else if (userInput.equals("nee")) {
-            System.out.println("You chose not to check in. Please decide again.");
+            System.out.println("je wilde niet inchecken mischien nu well?");
         } else {
-            System.out.println("Invalid input. Please enter 'ja' or 'nee'.");
+            System.out.println("ja of nee antwoorden alleen");
         }
     }
 
